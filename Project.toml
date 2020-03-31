@@ -1,0 +1,10 @@
+name = "CSPICE_jll"
+uuid = "07f52509-e9d9-513c-a20d-3b911885bf96"
+version = "66.0.0+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"

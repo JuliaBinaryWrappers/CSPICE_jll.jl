@@ -2,6 +2,8 @@
 export brief, chronos, ckbrief, commnt, dskbrief, dskexp, frmdiff, inspekt, libcspice, libcsupport, mkdsk, mkspk, msopck, spacit, spkdiff, spkmerge, tobin, toxfr, version
 
 JLLWrappers.@generate_wrapper_header("CSPICE")
+JLLWrappers.@declare_library_product(libcspice, "libcspice.so")
+JLLWrappers.@declare_library_product(libcsupport, "libcsupport.so")
 JLLWrappers.@declare_executable_product(brief)
 JLLWrappers.@declare_executable_product(chronos)
 JLLWrappers.@declare_executable_product(ckbrief)
@@ -10,8 +12,6 @@ JLLWrappers.@declare_executable_product(dskbrief)
 JLLWrappers.@declare_executable_product(dskexp)
 JLLWrappers.@declare_executable_product(frmdiff)
 JLLWrappers.@declare_executable_product(inspekt)
-JLLWrappers.@declare_library_product(libcspice, "libcspice.so")
-JLLWrappers.@declare_library_product(libcsupport, "libcsupport.so")
 JLLWrappers.@declare_executable_product(mkdsk)
 JLLWrappers.@declare_executable_product(mkspk)
 JLLWrappers.@declare_executable_product(msopck)
@@ -23,6 +23,18 @@ JLLWrappers.@declare_executable_product(toxfr)
 JLLWrappers.@declare_executable_product(version)
 function __init__()
     JLLWrappers.@generate_init_header()
+    JLLWrappers.@init_library_product(
+        libcspice,
+        "lib/libcspice.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libcsupport,
+        "lib/libcsupport.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         brief,
         "bin/brief",
@@ -61,18 +73,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         inspekt,
         "bin/inspekt",
-    )
-
-    JLLWrappers.@init_library_product(
-        libcspice,
-        "lib/libcspice.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libcsupport,
-        "lib/libcsupport.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(

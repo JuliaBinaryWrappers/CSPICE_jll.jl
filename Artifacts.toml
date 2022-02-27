@@ -1,115 +1,143 @@
 [[CSPICE]]
 arch = "aarch64"
-git-tree-sha1 = "ea1c42c5a9aaa93d5252bd37ab740c6448eefa19"
-libc = "glibc"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "d385405dea19ab25e04c0b62e046cbc4d0c02cd057273dba84db50d4ce5831ae"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.aarch64-linux-gnu.tar.gz"
-[[CSPICE]]
-arch = "aarch64"
-git-tree-sha1 = "829d0387e3a9a6d4eabc2ef50345a2059ef6632c"
-libc = "musl"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "e5b9b5ef9c08beb87ead962fe27b16a08c334be4559001dee19a6df9e3df415b"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.aarch64-linux-musl.tar.gz"
-[[CSPICE]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "1b198e5a035506aba02cc0c27df55439d8be986d"
-libc = "glibc"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "b4ee848bb2afbde34b68f43045604ff359d9cefdd8abf0273f773f98d20fb13e"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.armv7l-linux-gnueabihf.tar.gz"
-[[CSPICE]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "93202fcefb7391b65be34a99822cdc75f1681fab"
-libc = "musl"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "efc97033cbb1b62b40a2aa33acb57e06deb3f03dacfda141ab9b93e8e4918c2a"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.armv7l-linux-musleabihf.tar.gz"
-[[CSPICE]]
-arch = "i686"
-git-tree-sha1 = "07e800fdcb01a03829e45877cdfcd5b9219059f7"
-libc = "glibc"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "06b75f85d27d2d5093b6f1a99fa27555692b526f0121a9f2b4a4cb773879f07f"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.i686-linux-gnu.tar.gz"
-[[CSPICE]]
-arch = "i686"
-git-tree-sha1 = "25e95636ad5a76da55de8d250a42a5459f2ba567"
-libc = "musl"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "2972a0fc2a5dd31b2021838f1a04d73c5216b45d3bded892fe00a910d3c435cb"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.i686-linux-musl.tar.gz"
-[[CSPICE]]
-arch = "i686"
-git-tree-sha1 = "4c2e4da30857bac8508a54e7b9af3c825253d040"
-os = "windows"
-
-    [[CSPICE.download]]
-    sha256 = "359683056868de0ba5cf31344522322a90fcb15d57c323827e713cf489d0048c"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.i686-w64-mingw32.tar.gz"
-[[CSPICE]]
-arch = "powerpc64le"
-git-tree-sha1 = "dde415b9e36a93ab8be00c010e7b05f2cbf4d457"
-libc = "glibc"
-os = "linux"
-
-    [[CSPICE.download]]
-    sha256 = "067fc442df5c162158c65293100caa56f25ce9fe134ad8f4bb3867b45790b45f"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.powerpc64le-linux-gnu.tar.gz"
-[[CSPICE]]
-arch = "x86_64"
-git-tree-sha1 = "e3e26928ae00c0987a45a9f3b4da94c31109b8ad"
+git-tree-sha1 = "1f120d6866578764dcad5ef732ae09ed586c2e15"
 os = "macos"
 
     [[CSPICE.download]]
-    sha256 = "60333d5bdfacc781fada4cf646f3bf99465cc1f20d5bcada1d7fa6da6ff46bbd"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "cfef7b61a5d5d446241606d8a6676c0d1050438d24b97233e045feaff0aa3c47"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.aarch64-apple-darwin.tar.gz"
 [[CSPICE]]
-arch = "x86_64"
-git-tree-sha1 = "bdf6189248fb87841bb369cb109538df63c21f27"
+arch = "aarch64"
+git-tree-sha1 = "2c760610ec3b99134afe3947f75bdaee62fb1e12"
 libc = "glibc"
 os = "linux"
 
     [[CSPICE.download]]
-    sha256 = "55600faa5854324292b595ab337060c2bf2255dddb13ea314888cf9f884fcc1e"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "d332348bb93c972404673fb594f5629a3f12da5e8619a1e280c45963dd7e38d9"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.aarch64-linux-gnu.tar.gz"
 [[CSPICE]]
-arch = "x86_64"
-git-tree-sha1 = "27d5769588f2b2ef9bd02791dd554a12b1b2f6f2"
+arch = "aarch64"
+git-tree-sha1 = "c254587a46063d4e5c97a6c1db76fdbf80f7c57d"
 libc = "musl"
 os = "linux"
 
     [[CSPICE.download]]
-    sha256 = "2759bb05ecbcf34598907c4a32522031b3bdd9b471e0e3a57412c3eee658575a"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.x86_64-linux-musl.tar.gz"
+    sha256 = "374027b262aadb4a00da919822d179cbbae26e93917c1720af7bbace0930fdf0"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.aarch64-linux-musl.tar.gz"
 [[CSPICE]]
-arch = "x86_64"
-git-tree-sha1 = "b3de40185d0cb92898deee76b739dcb2e149dcc4"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3c0170bfc7717c0678b2723c972b43fdf78f1534"
+libc = "glibc"
+os = "linux"
 
     [[CSPICE.download]]
-    sha256 = "bc20f2af8073d49b32fc2a6000f226b5098e51eb2aced6fe5c54d99f62a8acc3"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "8d56fe324d5f4e982b89a129b276839997fb09f30a373ae6bef0d925ceb2c552"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.armv6l-linux-gnueabihf.tar.gz"
 [[CSPICE]]
-arch = "x86_64"
-git-tree-sha1 = "898e308dae2684c5436edae466a5bcfa4a8067ef"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "882dd0198a64930370c4b87ca73ae47a57ccf156"
+libc = "musl"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "4dda65c010dd13d24044119b5c43fb1f374c0e1df11f9c795ae762c498bb36b2"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.armv6l-linux-musleabihf.tar.gz"
+[[CSPICE]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6f1166e0c0d830c0e49ae5e612d705e89ddeaa95"
+libc = "glibc"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "bff6cd7b4872f6a45fadcbbdebbff3700e140ea294c33341cef34e8e198704da"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[CSPICE]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e235d87ae7466f692c8b883cd5a7e36051c5c9d2"
+libc = "musl"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "bfdc429a9e4159c2c6788033a3e09d9deed8e4bef94add20e859506f415065d3"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.armv7l-linux-musleabihf.tar.gz"
+[[CSPICE]]
+arch = "i686"
+git-tree-sha1 = "b23f9737766a1145a847294b34c26169428d5073"
+libc = "glibc"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "0e4ef7bb5c346f8028a8ad90aa8cb6aa64cc051bf9c1af4e7039085678d3644e"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.i686-linux-gnu.tar.gz"
+[[CSPICE]]
+arch = "i686"
+git-tree-sha1 = "a087ab268d835d04025bbaed1fc45df1554303d4"
+libc = "musl"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "2144a917413d6331f233579d385b45a605ca7354550c034868c3d9ce2611c376"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.i686-linux-musl.tar.gz"
+[[CSPICE]]
+arch = "i686"
+git-tree-sha1 = "d0c88ada7d3bfdd28c0e481d2db26e5ea767cbc6"
 os = "windows"
 
     [[CSPICE.download]]
-    sha256 = "aa61c131127ad9ac43b1b1e4cd9db279702a27c64341229a31545481a0edcb6b"
-    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v66.1.0+0/CSPICE.v66.1.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "49e1a6ef3219da8e11eee6ba64cf08cbe2abd3c0a10b4f9c39df46093202128a"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.i686-w64-mingw32.tar.gz"
+[[CSPICE]]
+arch = "powerpc64le"
+git-tree-sha1 = "b404cfafcc4c243b3a8114d12928e5ad912cafb6"
+libc = "glibc"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "3b054fb082e46426722e9349381d42f1194c3e1d1cf7434ecf433707fd125279"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.powerpc64le-linux-gnu.tar.gz"
+[[CSPICE]]
+arch = "x86_64"
+git-tree-sha1 = "fa6840c6d5b6b0d9204376fd89cde2230ba93073"
+os = "macos"
+
+    [[CSPICE.download]]
+    sha256 = "03fe8502deee06a6b7eb8980bb8f416693764507bcf4d7d2d6fecf09a8696389"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.x86_64-apple-darwin.tar.gz"
+[[CSPICE]]
+arch = "x86_64"
+git-tree-sha1 = "f90a22fbf7d53ce934b598cf92ee83b9daf04af4"
+libc = "glibc"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "e13c7cf62133476de078ff080886cc011639347ff67bce9c83a15da3540b7021"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.x86_64-linux-gnu.tar.gz"
+[[CSPICE]]
+arch = "x86_64"
+git-tree-sha1 = "f0843e341778823ea680a147d2c0ee8ebcc456ba"
+libc = "musl"
+os = "linux"
+
+    [[CSPICE.download]]
+    sha256 = "c65c77ebb836d5be770fedb865dd1f7a1fdca21ade5d8fd58f86f4271d51d916"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.x86_64-linux-musl.tar.gz"
+[[CSPICE]]
+arch = "x86_64"
+git-tree-sha1 = "3f4e1fabed2d5965cce54efd8b4e320186bdccb4"
+os = "freebsd"
+
+    [[CSPICE.download]]
+    sha256 = "7beec2d4b9bc30b27a52125046ba140e0e9337a0bb09f10e9de020b5cc58341d"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.x86_64-unknown-freebsd.tar.gz"
+[[CSPICE]]
+arch = "x86_64"
+git-tree-sha1 = "4c2d55d836bf2eced66b6afd4a1ddc00b6bac033"
+os = "windows"
+
+    [[CSPICE.download]]
+    sha256 = "66bb76e78e9907848adad0f65c9c21f5d6def37523cc7dca16439ad7807b1a4d"
+    url = "https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl/releases/download/CSPICE-v67.0.0+0/CSPICE.v67.0.0.x86_64-w64-mingw32.tar.gz"
